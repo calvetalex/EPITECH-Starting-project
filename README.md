@@ -8,12 +8,12 @@ Kit de Tek1
 
 * Makefile
 * lib
- '* Makefile lib
- '* mini_lib C
+'* Makefile lib
+'* mini_lib C
 * tests
- '* test de lib
+'* test de lib
 * include
- '* proto.h
- '* struct.h
- '* my.h
+'* proto.h
+'* struct.h
+'* my.h
 * .gitignore
