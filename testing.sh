@@ -1,5 +1,19 @@
 #!/bin/sh
 
+echo -e "\e[1;95m
+#########################################################################################
+                                      TESTING
+#########################################################################################
+\e[0m"
+
+echo -e "\e[1;95m
+To make tests, enter the cmd to be test in the command variable and the output expected.
+Then execute testing.sh
+
+
+Made by CALVET Alexandre
+\e[0m"
+
 good_com=0
 wrong_com=0
 
