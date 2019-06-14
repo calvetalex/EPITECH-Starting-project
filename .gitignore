@@ -7,6 +7,9 @@
 .v*
 vgcore*
 
+#ignore shell testing
+#*.sh
+
 #ignore temp files
 *~
 
