@@ -98,10 +98,6 @@ tests_run	:	set_rules $(TEST_BIN)
 			@./$(TEST_BIN) && \
 			$(ECHO) $(GREEN) "[OK]"$(TEAL)"  Done : " $@ $(DEFAULT)  || \
 			$(ECHO) $(ERROR) "[ERROR]" $(YELLOW) $(BINNAME) $(DEFAULT)
-			@mv $(TESTDIR)/*.gcno ./
-			@mv $(TESTDIR)/*.gcda ./
-			@mv $(SRCDIR)/*.gcda ./
-			@mv $(SRCDIR)/*.gcno ./
 
 set_rules_debug	:
 			$(eval BUILD=debug)
