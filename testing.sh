@@ -14,6 +14,8 @@ Then execute testing.sh
 Made by CALVET Alexandre
 \e[0m"
 
+silent=$(make)
+
 good_com=0
 wrong_com=0
 
@@ -38,3 +40,5 @@ checkin_cmd $command $exp
 
 echo -e "\n\e[1;4;2;32mTotal test passed :\e[0m" $good_com
 echo -e "\n\e[1;4;2;91mTotal test failed :\e[0m" $wrong_com
+
+silent=$(make fclean)
